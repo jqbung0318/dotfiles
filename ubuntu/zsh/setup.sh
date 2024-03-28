@@ -4,7 +4,10 @@
 sudo apt-get update
 sudo apt-get install curl git zsh -y
 
+sudo chsh -s $(which zsh)
+
 # install oh my zsh
+RUNZSH=no
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install plugins
