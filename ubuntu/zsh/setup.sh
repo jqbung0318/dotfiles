@@ -2,7 +2,7 @@
 
 # update first
 sudo apt-get update
-sudo apt-get install curl git -y
+sudo apt-get install curl git zsh -y
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
