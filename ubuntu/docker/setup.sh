@@ -29,5 +29,5 @@ sudo curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPO
 sudo chmod +x /usr/local/bin/docker-compose
 
 # move setup files to Archive
-mkdir -p Archive
-mv docker_setup_ubuntu_universal.sh Archive
+# mkdir -p Archive
+# mv docker_setup_ubuntu_universal.sh Archive
