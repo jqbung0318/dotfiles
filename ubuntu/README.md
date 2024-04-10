@@ -22,3 +22,8 @@ cd zsh
 sudo chmod +x setup.sh
 ./setup.sh
 ```
+
+```shell
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/jqbung0318/dotfiles/main/ubuntu/zsh/setup.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/jqbung0318/dotfiles/main/ubuntu/docker/setup.sh)"
+```
